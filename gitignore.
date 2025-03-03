@@ -1,0 +1,45 @@
+# macOS system files
+.DS_Store
+__MACOSX/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment folders
+venv/
+env/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Python egg and distribution files
+*.egg
+*.egg-info
+dist/
+build/
+
+# Flask config and database files
+*.db
+*.sqlite3
+*.log
+
+# Sensitive data (config files, API keys)
+.env
+config.py
+secrets.json
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor configuration files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Other files that can be generated during runtime
+*.pkl
+*.sqlite3
