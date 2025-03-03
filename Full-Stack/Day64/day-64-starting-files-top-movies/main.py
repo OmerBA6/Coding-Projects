@@ -9,10 +9,10 @@ import requests
 MOVIES_DATABASE_API_MOVIE_DETAILS_URL = "https://api.themoviedb.org/3/movie"
 MOVIES_DATABASE_API_SEARCH_URL = "https://api.themoviedb.org/3/search/movie"
 MOVIES_DATABASE_IMAGE_URL = "https://image.tmdb.org/t/p/original"
-MOVIES_DATABASE_API_KEY = "7fa3599ac7afbec392123a8c0302da2d"
+MOVIES_DATABASE_API_KEY = ""
 HEADERS = {
     "accept": "application/json",
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3ZmEzNTk5YWM3YWZiZWMzOTIxMjNhOGMwMzAyZGEyZCIsInN1YiI6IjY0ZTJmOWJjNTQ0YzQxMDBmZTkyM2IwNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.E_4jCrYJIck8qzu5puHar3ewY07W6w9lukU568vLZqs"
+    "Authorization": ""
 }
 
 # ---------------------------- Flask App Creation -------------------------- #
